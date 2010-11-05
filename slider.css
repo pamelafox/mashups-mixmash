@@ -8,7 +8,7 @@ slide:target {  /* slide activation: show the slide */
   opacity: 1;
 }
 
-slide:not(:target) {  /* deactivated slides go left */
+slide {  /* deactivated slides go left */
   -webkit-transition: all 0.4s;
   -webkit-transform: translateX(-40%) scale(0.5) translateZ(0px);
   opacity: 0;
