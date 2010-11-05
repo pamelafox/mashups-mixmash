@@ -1,0 +1,160 @@
+@font-face { font-family: 'ArtsyFont'; src: url("fonts/Museo900-Regular.otf"); }
+@font-face { font-family: 'ArtsyFontMedium'; src: url("fonts/Museo500-Regular.otf"); }
+@font-face { font-family: 'ArtsyFontLight'; src: url("fonts/Museo100-Regular.otf"); }
+@font-face { font-family: 'ArtsyMono'; src: url("fonts/Inconsolata.otf"); }
+
+body {
+  font: 30px ArtsyFontLight;
+  background: #ccc;
+  background: center center no-repeat;
+  background-size: cover;
+  -moz-background-size: cover;
+  overflow: hidden;
+  padding: 0;
+  margin: 0;
+}
+
+slides {
+  position: absolute;
+  top: 0; right: 0; bottom: 0; left: 0; margin: auto;
+  width: 100%; height: 100%;
+}
+
+slide {
+  position: absolute;
+  top: 0; right: 0; bottom: 0; left: 0; margin: auto;
+  width: 740px; height: 540px;
+  background: #fff;
+  overflow: hidden;
+  border-radius: 10px;
+  -moz-border-radius: 10px;
+  -webkit-box-shadow: 2px 2px 5px #888;
+  -moz-box-shadow: 2px 2px 5px #888;
+  padding: 30px;
+}
+
+slide > div {
+  width: 100%;
+  height: 100%;
+  display: -webkit-box;
+  display: -moz-box;
+  -webkit-box-orient: vertical; -moz-box-orient: vertical;
+  -webkit-box-align: stretch; -moz-box-align: stretch;
+  -webkit-box-pack: center; -moz-box-pack: center;
+  text-align: center;
+}
+
+slide > div > * {
+  display: block; -webkit-box-flex: 0; -moz-box-flex: 0;
+}
+
+.slidecount {
+  font-size: 18px;
+  position: absolute;
+  right: 20px;
+  bottom: 0px;
+  color: #666;
+}
+
+slide a {
+  text-decoration: none;
+}
+
+slide a:hover {
+  border-bottom: 3px groove blue;
+}
+
+
+h1, h2, h3, h4 {
+  padding: 0; margin: 0;
+  text-transform: uppercase;
+}
+
+h1 {
+  font: 110px ArtsyFont;
+}
+
+h2 {
+  font: 50px ArtsyFont;
+}
+
+h3 {
+  font: 40px ArtsyFontMedium;
+}
+
+h4 {
+  font: 30px ArtsyFontMedium; margin-top: 30px;
+}
+
+p {
+  margin: 10px 0; padding: 0;
+}
+
+code {
+  color: #060;
+}
+
+pre {
+  text-align: left;
+  background-color: #E0F4E3;
+  padding: 5px;
+  border-top: 3px dashed #5cb569;
+  border-bottom: 3px dashed #5cb569;
+  word-wrap: break-word;
+  font-size: smaller;
+  font-family: ArtsyMono;
+  overflow: hidden;
+  width: 740px;
+}
+
+pre em {
+  font-style: normal;
+  color: #206129;
+}
+
+strong { 
+  font-family: ArtsyFontMedium;
+}
+
+table {
+  font-size: 40px;
+  width: 500px;
+  margin: auto;
+}
+
+.centered {
+  text-align: center;
+  font-family: ArtsyFontMedium;
+}
+
+.intro {
+  background-color: #90E864;
+}
+
+.section {
+  background-color: #61E8DF;
+}
+
+
+.award {
+  font-family: ArtsyFontMedium;
+  font-size: 25px;
+  -webkit-transform: rotate(30deg); -moz-transform: rotate(30deg);
+  position: absolute;
+  right: -100px;
+  top: 60px;
+  width: 500px;
+  background: red;
+  color:yellow;
+}
+ 
+.bigimg {
+  height: 400px;
+  width: 550px;
+  border: 3px solid #5cb569;
+  margin: auto;
+}
+
+.source {
+  font-size: 14px;
+}
